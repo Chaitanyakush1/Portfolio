@@ -1,0 +1,245 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Chaitanya Kushwah | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+      <div class="logo">
+        <span class="logo-short">CK</span>
+        <span class="logo-full">Chaitanya Kushwah</span>
+      </div>
+
+      <ul class="nav-links">
+        <li><a onclick="scrollToSection('home')">Home</a></li>
+
+        <li><a onclick="scrollToSection('about')">About</a></li>
+
+        <li><a onclick="scrollToSection('projects')">Projects</a></li>
+
+        <li><a onclick="scrollToSection('contact')">Contact</a></li>
+      </ul>
+    </header>
+
+    <!-- HERO -->
+
+    <section id="home" class="hero">
+      <h1>Hi, I'm <span>Chaitanya Kushwah</span></h1>
+
+      <h2><span class="typing"></span></h2>
+
+      <div class="hero-buttons">
+        <button onclick="scrollToSection('projects')">Explore My Work</button>
+
+        <a class="resume-btn" href="#">
+          <i class="fa-solid fa-download"></i> Resume
+        </a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+
+    <section id="about" class="section fade-in">
+      <h2>About Me</h2>
+
+      <p class="about-text">
+        I'm <b>Chaitanya Kushwah</b>, a Computer Science student passionate
+        about building modern web applications and solving real-world problems
+        through code. Currently learning
+        <b>HTML, CSS, JavaScript, C, C++, Python</b> and building projects to
+        strengthen my development skills. My goal is to become a successful tech
+        entrepreneur and create powerful digital products.
+      </p>
+
+      <!-- SKILLS -->
+
+      <div class="skills">
+        <div class="skill">
+          <p>HTML</p>
+          <div class="progress">
+            <div class="progress-bar html"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <p>CSS</p>
+          <div class="progress">
+            <div class="progress-bar css"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <p>JavaScript</p>
+          <div class="progress">
+            <div class="progress-bar js"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <p>C</p>
+          <div class="progress">
+            <div class="progress-bar c"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <p>C++</p>
+          <div class="progress">
+            <div class="progress-bar cpp"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <p>Python</p>
+          <div class="progress">
+            <div class="progress-bar python"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+
+    <section id="projects" class="section fade-in">
+      <h2>Projects</h2>
+
+      <!-- FEATURED PROJECT -->
+
+      <div class="featured-project">
+        <div class="featured-image">
+          <img src="/Portfolio/Images/AURIA MAIN.png" alt="AURIA " />
+        </div>
+
+        <div class="featured-content">
+          <h3>⭐AURIA – AI Unified Resume & Interview Assistant</h3>
+
+          <p>
+            AURIA is an AI-powered web platform that helps students and job
+            seekers improve their resumes and interview performance. It
+            generates ATS-optimized resumes by analyzing job descriptions and
+            provides AI-based mock
+            <!-- interviews with feedback on content, tone, and communication. The
+            platform also includes a performance dashboard, coding practice
+            environment, job recommendations, and industry trend insights to
+            help users prepare effectively for tech careers. -->
+          </p>
+
+          <div class="project-buttons">
+            <a href="#"> <i class="fa-solid fa-globe"></i> Live Demo </a>
+
+            <a href="#"> <i class="fa-brands fa-github"></i> GitHub </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- OTHER PROJECTS -->
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Calendar using Data Structure</h3>
+
+          <p>Dynamic calendar system built using C programming.</p>
+        </div>
+
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+
+          <p>Responsive portfolio built using HTML, CSS & JavaScript.</p>
+        </div>
+
+        <div class="project-card">
+          <h3>Future Project</h3>
+
+          <p>Another exciting project coming soon.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+
+    <section id="contact" class="section fade-in">
+      <h2>Contact Me</h2>
+
+      <div class="contact-container">
+        <!-- CONTACT FORM -->
+
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required />
+
+          <input type="email" placeholder="Your Email" required />
+
+          <textarea placeholder="Your Message" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+
+        <!-- CONTACT INFO -->
+
+        <div class="contact-info">
+          <h3>Let's Connect</h3>
+
+          <p class="contact-text">
+            Feel free to reach out if you want to collaborate, discuss ideas, or
+            just say hello 👋
+          </p>
+
+          <div class="contact-links">
+            <a href="mailto:chetankushwah1104@gmail.com">
+              <i class="fa-solid fa-envelope"></i>
+              Email
+            </a>
+
+            <a
+              href="https://linkedin.com/in/chaitanya-kushwah-37525a291 "
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+              LinkedIn
+            </a>
+
+            <a href="https://github.com/Chaitanyakush1" target="_blank">
+              <i class="fa-brands fa-github"></i>
+              GitHub
+            </a>
+          <!-- </div>
+
+          <p class="location">📍 India</p>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+ <footer class="footer">
+
+<p class="footer-text">
+© 2026 Chaitanya Kushwah
+</p>
+
+<p class="footer-tagline">
+Building ideas with code 🚀
+</p>
+
+<button class="back-to-top" onclick="scrollToSection('home')">
+<i class="fa-solid fa-arrow-up"></i>
+</button>
+
+</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
